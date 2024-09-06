@@ -18,15 +18,3 @@ futuristiks.forEach(function(futuristik){
         futuristik.classList.toggle("show-text");
     });
 });
-
-// traversing the dom
-
-// const btns = document.querySelectorAll(".futuristik-btn");
-
-// btns.forEach(function(btn){
-//     btn.addEventListener("click", function(e) {
-//         const futuristik = e.currentTarget.parentElement.
-//         parentElement;
-//         futuristik.classList.toggle("show-text");
-//     });
-// });
