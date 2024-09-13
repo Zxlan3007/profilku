@@ -11,6 +11,28 @@ Variables
 ===============
 */
 
+/* border avatar */
+/* Style for the avatar section */
+.avatar-section {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.avatar-container {
+  display: inline-block;
+  border: 5px solid #333; /* Adjust border size and color as needed */
+  border-radius: 50%; /* Makes the border circular */
+  padding: 5px; /* Space between the border and the image */
+}
+
+.avatar-img {
+  display: block;
+  width: 150px; /* Adjust size as needed */
+  height: 150px; /* Adjust size as needed */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image covers the container without distortion */
+}
+
 :root {
   /* dark shades of primary color*/
   --clr-primary-1: hsl(205, 86%, 17%);
